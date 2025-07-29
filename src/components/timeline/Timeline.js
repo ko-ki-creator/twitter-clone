@@ -15,12 +15,15 @@ function Timeline() {
             <TweetBox />
 
             {/* Post */}
-            <Post />
-            <Post />
-            <Post />
-            <Post />
-            <Post />
-            <Post />
+            <Post
+                displayName="プログラミングチュートリアル"
+                username="Shin_Engineer"
+                verified={true}
+                text="初めてのツイート"
+                avatar="https://picsum.photos/400/300"
+                image="https://picsum.photos/400/300"
+            />
+
         </div>
     )
 }
